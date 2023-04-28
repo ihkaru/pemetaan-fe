@@ -2,9 +2,10 @@ import { boot } from 'quasar/wrappers'
 
 // "async" is optional;
 // more info on params: https://v2.quasar.dev/quasar-cli/boot-files
-export default boot(async ({urlPath,redirect}) => {
+export default boot(({urlPath,redirect}) => {
   if(urlPath!='/login' && urlPath == "/"){
-    redirect({path: '/login'});
+    console.log(urlPath);
+    // redirect({path: '/login'});
     return;
   }
 })
