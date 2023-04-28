@@ -3,7 +3,6 @@
 
 module.exports = {
   plugins: [
-    // https://github.com/postcss/autoprefixer
     require('autoprefixer')({
       overrideBrowserslist: [
         'last 4 Chrome versions',
@@ -16,9 +15,7 @@ module.exports = {
         'last 4 iOS versions'
       ]
     }),
-    require('tailwindcss'),
-    // require('aos')
-
+    require('tailwindcss')
     // https://github.com/elchininet/postcss-rtlcss
     // If you want to support RTL css, then
     // 1. yarn/npm install postcss-rtlcss
