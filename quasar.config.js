@@ -31,7 +31,7 @@ module.exports = configure(function (/* ctx */) {
     // https://v2.quasar.dev/quasar-cli/boot-files
     boot: [
       
-      'axios','aos','leaflet'
+      'axios','aos','leaflet','redirector'
     ],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css

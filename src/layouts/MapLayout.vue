@@ -5,7 +5,7 @@
 
     <!-- (Optional) The Footer -->
     <q-footer>
-      <q-tabs switch-indicator dense>
+      <q-tabs switch-indicator dense class="text-primary bg-white">
         <q-route-tab
           icon="map"
           to="/your/route"
