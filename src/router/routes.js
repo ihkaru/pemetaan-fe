@@ -16,6 +16,10 @@ const routes = [
           {
             path: '',
             component: () => import('pages/map/MapPage.vue')
+          },
+          {
+            path: 'list',
+            component: () => import('pages/list/ListPage.vue')
           }
         ]
       },

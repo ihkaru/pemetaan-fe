@@ -8,15 +8,21 @@
       <q-tabs switch-indicator dense class="text-primary bg-white">
         <q-route-tab
           icon="map"
-          to="/your/route"
+          to="/map"
           replace
           label="peta"
         />
         <q-route-tab
           icon="assignment"
-          to="/some/other/route"
+          to="/map/list"
           replace
           label="Daftar"
+        />
+        <q-route-tab
+          icon="logout"
+          to="/"
+          replace
+          label="logout"
         />
       </q-tabs>
     </q-footer>
