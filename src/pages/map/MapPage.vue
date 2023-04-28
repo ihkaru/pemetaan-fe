@@ -1,6 +1,6 @@
 <template>
     <div id="mapPage" data-aos="zoom-out" class="scrollbar-hide">
-        <div class="form q-px-xl q-mt-lg">
+        <div class="form q-px-lg q-mt-lg">
             <q-input bg-color="white" color="white" dense outlined standout rounded placeholder="Cari lokasi bangunan...">
                 <template v-slot:prepend>
                 <q-icon name="place" />
