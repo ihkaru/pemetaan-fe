@@ -48,6 +48,9 @@
         #map{
             height: 100vh;
             width: 100vw;
+            .leaflet-pane.leaflet-shadow-pane {
+                display: none;
+            }
         }
         .form {
             position:absolute;
