@@ -5,6 +5,6 @@ import { boot } from 'quasar/wrappers'
 export default boot(async ({urlPath,redirect}) => {
   if(urlPath == "/"){
     redirect({path: '/login'});
-    // return;
+    return;
   }
 })
