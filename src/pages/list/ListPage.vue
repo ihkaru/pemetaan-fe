@@ -1,5 +1,5 @@
 <template>
-  <div id="listPage" data-aos="fade-right">
+  <div id="listPage" data-aos="fade-left">
     <q-card class="banner q-pa-lg">
       <div class="content text-lg" style="font-size: xx-large;">
         <div>
