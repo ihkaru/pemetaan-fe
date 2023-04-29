@@ -14,8 +14,9 @@
         @click="onClick"
       />
       <div class="tw-w-full text-center">atau masuk dengan akun</div>
-      <q-btn icon="img:./icons/google.svg" label="Google" />
       <q-btn icon="img:./icons/bps.svg" label="SOBAT BPS" />
+      <q-btn icon="img:./icons/bps.svg" label="SSO BPS" />
+      <q-btn icon="img:./icons/google.svg" label="Google" />
     </q-card>
   </div>
 </template>
