@@ -51,7 +51,7 @@ module.exports = configure(function (ctx) {
       env: {
         API: ctx.dev
           ? "http://127.0.0.1:8000/api"
-          : "https://pwa.dvlp.asia/api",
+          : "https://dev.dvlp.asia/api",
         redirect_after_login: "http://localhost:9000/map",
       },
       target: {

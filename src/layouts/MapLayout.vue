@@ -26,21 +26,14 @@
   </q-layout>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
+import { useUserStore } from "src/stores/user-store";
 
-export default {
-  // name: 'LayoutName',
+const userStore = useUserStore();
+const leftDrawerOpen = ref(false);
 
-  setup() {
-    const leftDrawerOpen = ref(false);
-
-    return {
-      leftDrawerOpen,
-      toggleLeftDrawer() {
-        leftDrawerOpen.value = !leftDrawerOpen.value;
-      },
-    };
-  },
-};
+function toggleLeftDrawer() {
+  leftDrawerOpen.value = !leftDrawerOpen.value;
+}
 </script>

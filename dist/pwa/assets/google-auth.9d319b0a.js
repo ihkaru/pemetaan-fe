@@ -1,1 +1,0 @@
-import{b as e}from"./index.1f8a2a94.js";import{v as t}from"./index.esm.bbf6a70b.js";var i=e(async({app:o})=>{o.use(t,{clientId:"497935660775-335mbn5aih5tfi7smokqeev7rc56hk0o.apps.googleusercontent.com",scope:"email profile openid"})});export{i as default};
